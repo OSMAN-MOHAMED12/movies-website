@@ -1,0 +1,84 @@
+body{
+    background-color: rgba(40, 26, 34, 0.8);
+    color: papayawhip;
+    font-size: 22px;
+    overflow-x: hidden;
+    width: fit-content;
+    height: fit-content;
+    user-select: none;
+}
+
+.class{
+    width: 100vw;
+    height: 70px;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+.class .input{
+    width: 300px;
+    height: 35px;
+    margin-top: 10px;
+    margin-left: 25%;
+    border: none;
+    border-radius: 10px;
+    text-indent: 20px;
+    font-size: 18px;
+}
+.class .btn{
+    width: 200px;
+    height: 35px;
+    margin-top:10px;
+    border: none;
+    border-radius: 10px;
+    font-size: 20px;
+    background-color: slateblue;
+    color: white;
+    cursor: pointer;
+}
+
+
+.header{
+    height: 100px;
+    width: 100vw;
+    background-color: rgba(246, 228, 237, 0.8);
+    padding-top: 25px;
+    margin-top: 0;
+    text-align: center;
+    color: black;
+}
+
+.container{
+    display: flex;
+    gap: 20px;
+    margin-left: 50px;
+    margin-top: 50px;
+    flex-wrap: wrap;
+    padding-top: -40px;
+}
+.search-single{
+    width: fit-content;
+    height: fit-content;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    object-fit: contain;
+}
+.search-single img{
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+}
+@media screen and (max-width: 768px) {
+    .class{
+        width: 70%;
+    } 
+    .class .btn{
+        margin-left: 100px;
+    }
+    .class .input{
+        margin-left: 80px;
+    }
+    
+}
